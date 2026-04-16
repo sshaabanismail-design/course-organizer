@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/pro1.css">
+    </head>
+    <body>
+        <header>
+        <nav>
+            <div class="title">
+                <h1>Personal Course Organizer</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="my_course.html">My courses</a></li>
+                <li><a href="add.html">Add course</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+        </header>
+        <div class="side">
+            <h2>Add A New Course</h2>
+        </div>
+        <form method="post">
+            <div class="inputs">
+            <label for="name">Course Name:</label>
+            <input id="name" name="course" type="text" placeholder="e.g.:Internet technology" autofocus>
+            </div>
+            <div class="inputs">
+            <label for="inst">Instructor:</label>
+            <input id="inst" name="instructor" type="text" placeholder="Enter Full Name">
+            </div>
+            <div class="inputs">
+            <label for="num">Credit Hours:</label>
+            <input id="num" name="hours" type="number" min="1" placeholder="1" >
+            </div>
+            <div class="inputs">
+            <label for="note">Notes:</label>
+            <textarea id="note" name="text" placeholder="Enter Text"></textarea>
+            </div>
+            <div class="inputs">
+                <input id="save" name="submit" type="submit" value="save">
+            </div>
+        </form>
+        <footer>
+            <p> &copy; 2026 ,Course Orgsnizer.</p>
+        </footer>
+    </body>
+</html>
